@@ -151,6 +151,7 @@ const createSession = async (sessionId, isLegacy = false, res = null) => {
                 deleteSession(sessionId, isLegacy)
             }
         }
+
     })
 }
 
